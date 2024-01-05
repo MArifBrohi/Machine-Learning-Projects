@@ -4,6 +4,8 @@ import preprocessor
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+st.markdown("<h3 style='text-align: center;'>beingArifKhan Project</h3>", unsafe_allow_html=True)
+st.sidebar.title('Respect your chat partners')
 st.sidebar.title('WhatsApp chat Analyzer')
 uploaded_file = st.sidebar.file_uploader("Choose a file")
 if uploaded_file is not None:
